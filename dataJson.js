@@ -1,48 +1,48 @@
 var kanbanTable_tasks= { 
     "kanbanTable1": [{
         "taskHeader": "first Task",
-        "taskColor": "transparent",
+        "taskColor": "orange",
         "taskTag": "#taskOne",
         "taskDate1": "10/12/2016",
         "taskDate2": "12/12/2016",
         "taskProgress": "10",
-        "taskAnno": "comment"
+        "taskAnno": "comment1 and some info"
     }, 
     {
        "taskHeader": "2nd Task",
         "taskColor": "red",
-        "taskTag": "#task2",
+        "taskTag": "",
         "taskDate1": "10/12/2016",
-        "taskDate2": "10/12/2016",
+        "taskDate2": "",
         "taskProgress": "0",
-        "taskAnno": "comment2"
+        "taskAnno": "comment2 comment2"
     }, 
     {
-        "taskHeader": "3rd Task",
+        "taskHeader": "3rd test Task",
         "taskColor": "transparent",
          "taskTag": "",
         "taskDate1": "",
-        "taskDate2": "",
-        "taskProgress": "40",
+        "taskDate2": "10/12/2016",
+        "taskProgress": "50",
         "taskAnno": "comment3"
     },
     {
-        "taskHeader": "free Task",
+        "taskHeader": "Some test Task",
         "taskColor": "green",
          "taskTag": "",
         "taskDate1": "",
         "taskDate2": "",
         "taskProgress": "0",
-        "taskAnno": "comment3"
+        "taskAnno": ""
     }],
     "kanbanTable2": [{
-        "taskHeader": "first Task",
-        "taskColor": "transparent",
+        "taskHeader": "first Task on the new kanban table",
+        "taskColor": "blue",
         "taskTag": "#taskOne",
         "taskDate1": "10/12/2016",
         "taskDate2": "10/12/2016",
-        "taskProgress": "0",
-        "taskAnno": "comment"
+        "taskProgress": "1",
+        "taskAnno": "comment here"
     }, 
     {
        "taskHeader": "2nd Task",
@@ -50,11 +50,11 @@ var kanbanTable_tasks= {
         "taskTag": "#task2",
         "taskDate1": "10/12/2016",
         "taskDate2": "10/12/2016",
-        "taskProgress": "5",
+        "taskProgress": "0",
         "taskAnno": "comment2 comment"
     }],
     "kanbanTable3": [{
-        "taskHeader": "3 Task",
+        "taskHeader": "first Task on the new kanban table",
         "taskColor": "transparent",
          "taskTag": "",
         "taskDate1": "",
@@ -64,12 +64,12 @@ var kanbanTable_tasks= {
     }],
     "kanbanTable4": [{
         "taskHeader": "test Task",
-        "taskColor": "transparent",
-        "taskTag": "#test #test",
-        "taskDate1": "10/12/2016",
+        "taskColor": "blue",
+        "taskTag": "#test",
+        "taskDate1": "",
         "taskDate2": "10/12/2016",
         "taskProgress": "99",
-        "taskAnno": "comment"
+        "taskAnno": ""
     }],
 
 }

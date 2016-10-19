@@ -225,31 +225,31 @@ input[type="radio"] + label{
     border-radius:  50%;
 }
 input[type="radio"] + label{
-     opacity: 0.4;
-     border: 0.5px solid #FFF;
+    opacity: 0.4;
+    border: 0.5px solid #FFF;
 }
 input[type="radio"]:checked + label{
-     opacity: 0.8;
-     border: 0.5px solid #888 ;
+    opacity: 0.8;
+    border: 0.5px solid #888 ;
 }
 input[type="radio"] + label.input_radio_yellow, input[type="radio"]:checked + label.input_radio_yellow{
-     background-color: yellow;
+    background-color: yellow;
 }
 input[type="radio"] + label.input_radio_blue, input[type="radio"]:checked + label.input_radio_blue{
-     background-color: blue;      
+    background-color: blue;      
 }
 input[type="radio"] + label.input_radio_green, input[type="radio"]:checked + label.input_radio_green{
-     background-color: green;      
+    background-color: green;      
 }
 input[type="radio"] + label.input_radio_red, input[type="radio"]:checked + label.input_radio_red{
-     background-color: red;      
+    background-color: red;      
 }
 input[type="radio"] + label.input_radio_orange, input[type="radio"]:checked + label.input_radio_orange{
-     background-color: orange;      
+    background-color: orange;      
 }
 input[type="radio"] + label.input_radio_none, input[type="radio"]:checked + label.input_radio_none{
-     background-color: #FFF;      
-     border: 0.5px solid #888 ;
+    background-color: #FFF;      
+    border: 0.5px solid #888 ;
 }
 .content-form__input_date1, .content-form__input_date2{
 	width: 5rem;
@@ -292,31 +292,31 @@ input[type="radio"] + label.input_radio_none, input[type="radio"]:checked + labe
 	margin-right: 3rem;
 }
 .button_custom {
-   float: right;
-   display: inline-block;
-   margin: 0.5rem 2rem 2rem 0;
-   width: 5rem;
-   background: #a7d0eb;
-   padding: 7px 14px;
-   border-radius: 5px;
-   color: #253761;
-   font-size: 1rem;
-   font-weight: bold;
-   text-decoration: none;
-   text-align: center;
-   vertical-align: middle;
-   cursor: pointer;
-   opacity: 0.9;
+	float: right;
+	display: inline-block;
+	margin: 0.5rem 2rem 2rem 0;
+	width: 5rem;
+	background: #a7d0eb;
+	padding: 7px 14px;
+	border-radius: 5px;
+	color: #253761;
+	font-size: 1rem;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	opacity: 0.9;
 }
 .button_custom:hover {
-   border-top-color: #86b9d9;
-   background: #86b9d9;
-   color: #2b2e36;
+    border-top-color: #86b9d9;
+    background: #86b9d9;
+    color: #2b2e36;
 }
 .button_custom:active {
-   border-top-color: #1f80b8;
-   background: #1f80b8;
-   color: #fff;
+   	border-top-color: #1f80b8;
+   	background: #1f80b8;
+   	color: #fff;
 }
 .window__btn_delete{
 	display: none;
