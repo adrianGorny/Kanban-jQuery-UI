@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kanban</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.min.js"></script>
+  <script type="text/javascript" src="./initialData.js"></script>
+  <script type="text/javascript" src="./dataJson.js"></script>
+  <script type="text/javascript" src="./kanbanVC.js"></script>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="main-overlay">
+            <div class="main-overlay__preloader"></div>
+        </div>
+        <div class="main-window">
+                <div class="window__label">
+                    Create new task
+                </div>
+                <div class="window-content">
+                    <div class="content-form">
+                        Task Header
+                        <input type="input" class="content-form__input_header">
+                    </div>
+                    <div class="content-form">
+                        Label color
+                        <div class="form-radio_group">
+                            <input type="radio" id="radio1" name="radio" value="transparent" checked />
+                            <label for="radio1" class="input_radio_none"></label>
+
+                            <input type="radio" id="radio2" name="radio" value="yellow" />
+                            <label for="radio2" class="input_radio_yellow"></label>
+                        
+                            <input type="radio" id="radio3" name="radio" value="orange" />
+                            <label for="radio3" class="input_radio_orange" ></label>
+                            
+                            <input type="radio" id="radio4" name="radio" value="red" />
+                            <label for="radio4" class="input_radio_red" ></label>
+                           
+                            <input type="radio" id="radio5" name="radio" value="blue" />
+                            <label for="radio5" class="input_radio_blue" ></label>
+
+                            <input type="radio" id="radio6" name="radio" value="green" />
+                            <label for="radio6" class="input_radio_green" ></label>
+                        </div>
+                    </div>
+                    
+                    <div class="content-form">
+                        Add #Tag 
+                        <input type="input" class="content-form__input_tag" >
+                    </div> 
+                        
+                    <div class="content-form">
+                        Start at
+                       <input type="input" class="content-form__input_date1">
+                        
+                    </div>
+                     <div class="content-form">
+                        Finish at
+                        <input type="input" class="content-form__input_date2">
+                    </div>
+                    <div class="content-form">
+                        Progress
+                        <div class="content-form__slider">
+                          <div id="content-form__handle" class="ui-slider-handle"></div>
+                        </div>
+                    </div>    
+                    <div class="content-form">
+                        Annotation
+                        <textarea rows="5" class="content-form__input_annot"></textarea>
+                    </div>
+
+                </div>
+                <div class="button_group">
+                    <div class="window__btn_save button_custom">Save</div>
+                    <div class="window__btn_cancel button_custom">Cancel</div>
+                    <div class="window__btn_delete button_custom">Delete Task</div>
+                </div>
+                
+                
+        </div>
+        <div class="main-kanban">
+            <div class="kanbanTable1">
+                <div class="kanbanTable__label">
+                    Not Started
+                </div>
+                <ul class="kanbanTable-list"></ul> 
+                <div class="kanbanTable__btn_add">
+                    <div class="ui-icon ui-icon-circle-plus"></div>
+                    New Task
+                </div>
+            </div>
+            <div class="kanbanTable2">
+                <div class="kanbanTable__label">
+                    Ready
+                </div>
+                <ul class="kanbanTable-list"></ul> 
+                <div class="kanbanTable__btn_add">
+                    <div class="ui-icon ui-icon-circle-plus"></div>
+                    New Task
+                </div>
+             </div>
+         
+             <div class="kanbanTable3">
+                <div class="kanbanTable__label">
+                    In Progress
+                </div>
+                <ul class="kanbanTable-list"></ul> 
+                <div class="kanbanTable__btn_add">
+                    <div class="ui-icon ui-icon-circle-plus"></div>
+                    New Task
+                </div>
+             </div>
+
+             <div class="kanbanTable4">
+                <div class="kanbanTable__label">
+                    Under Review
+                </div>
+                <ul class="kanbanTable-list"></ul>
+                <div class="kanbanTable__btn_add">
+                    <div class="ui-icon ui-icon-circle-plus"></div>
+                    New Task
+                </div> 
+             </div>
+        </div>
+    </div>
+</body>
+</html>
